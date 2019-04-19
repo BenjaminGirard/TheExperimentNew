@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: e7afa25c1902803458faf499918d09a4
+timeCreated: 1429785500
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: run_so_0
+    21300002: run_so_1
+    21300004: run_so_2
+    21300006: run_so_3
+    21300008: run_so_4
+    21300010: run_so_5
+    21300012: run_so_6
+    21300014: run_so_7
+    21300016: run_so_8
+    21300018: run_so_9
+    21300020: run_so_10
+    21300022: run_so_11
+    21300024: run_so_12
+    21300026: run_so_13
+    21300028: run_so_14
+    21300030: run_so_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: WebGL
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: run_so_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 127
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 456
+        width: 125
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 456
+        width: 128
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_3
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 456
+        width: 139
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_4
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 456
+        width: 158
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_5
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 456
+        width: 183
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_6
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 456
+        width: 196
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_7
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 456
+        width: 186
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_8
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 454
+        width: 161
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_9
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 452
+        width: 133
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_10
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 445
+        width: 114
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 28
+        width: 120
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_12
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 28
+        width: 120
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 28
+        width: 118
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_14
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 32
+        width: 114
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_so_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 28
+        width: 123
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

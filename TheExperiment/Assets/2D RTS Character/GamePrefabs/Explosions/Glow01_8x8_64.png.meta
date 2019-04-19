@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: be703848437019d41a8b4e72586cbed4
+timeCreated: 1433174416
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Glow01_8x8_64_0
+    21300002: Glow01_8x8_64_1
+    21300004: Glow01_8x8_64_2
+    21300006: Glow01_8x8_64_3
+    21300008: Glow01_8x8_64_4
+    21300010: Glow01_8x8_64_5
+    21300012: Glow01_8x8_64_6
+    21300014: Glow01_8x8_64_7
+    21300016: Glow01_8x8_64_8
+    21300018: Glow01_8x8_64_9
+    21300020: Glow01_8x8_64_10
+    21300022: Glow01_8x8_64_11
+    21300024: Glow01_8x8_64_12
+    21300026: Glow01_8x8_64_13
+    21300028: Glow01_8x8_64_14
+    21300030: Glow01_8x8_64_15
+    21300032: Glow01_8x8_64_16
+    21300034: Glow01_8x8_64_17
+    21300036: Glow01_8x8_64_18
+    21300038: Glow01_8x8_64_19
+    21300040: Glow01_8x8_64_20
+    21300042: Glow01_8x8_64_21
+    21300044: Glow01_8x8_64_22
+    21300046: Glow01_8x8_64_23
+    21300048: Glow01_8x8_64_24
+    21300050: Glow01_8x8_64_25
+    21300052: Glow01_8x8_64_26
+    21300054: Glow01_8x8_64_27
+    21300056: Glow01_8x8_64_28
+    21300058: Glow01_8x8_64_29
+    21300060: Glow01_8x8_64_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: WebGL
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Glow01_8x8_64_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1844
+        width: 150
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1830
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1818
+        width: 205
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_3
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1813
+        width: 215
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1811
+        width: 219
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_5
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1809
+        width: 223
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_6
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1808
+        width: 225
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_7
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1806
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1548
+        width: 232
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1547
+        width: 235
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1545
+        width: 237
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_11
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1544
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_12
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1543
+        width: 243
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_13
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1542
+        width: 245
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_14
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1541
+        width: 247
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_15
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1540
+        width: 248
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1283
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1282
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_18
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1282
+        width: 254
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_19
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1281
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_20
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1280
+        width: 255
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_21
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1280
+        width: 255
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_22
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1280
+        width: 255
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_23
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1280
+        width: 255
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1024
+        width: 255
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1025
+        width: 254
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_26
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1027
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_27
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1031
+        width: 239
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1033
+        width: 238
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_29
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1035
+        width: 234
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Glow01_8x8_64_30
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1042
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

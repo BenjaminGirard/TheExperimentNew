@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 33fba673f0916d349b955fda0de2b2fe
+timeCreated: 1430498357
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fire_so_0
+    21300002: fire_so_1
+    21300004: fire_so_2
+    21300006: fire_so_3
+    21300008: fire_so_4
+    21300010: fire_so_5
+    21300012: fire_so_6
+    21300014: fire_so_7
+    21300016: fire_so_8
+    21300018: fire_so_9
+    21300020: fire_so_10
+    21300022: fire_so_11
+    21300024: fire_so_12
+    21300026: fire_so_13
+    21300028: fire_so_14
+    21300030: fire_so_15
+    21300032: fire_so_16
+    21300034: fire_so_17
+    21300036: fire_so_18
+    21300038: fire_so_19
+    21300040: fire_so_20
+    21300042: fire_so_21
+    21300044: fire_so_22
+    21300046: fire_so_23
+    21300048: fire_so_24
+    21300050: fire_so_25
+    21300052: fire_so_26
+    21300054: fire_so_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: WebGL
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: fire_so_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 456
+        width: 212
+        height: 399
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 456
+        width: 211
+        height: 399
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 456
+        width: 210
+        height: 399
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 455
+        width: 209
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_9
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 455
+        width: 207
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_11
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 455
+        width: 206
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_13
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 456
+        width: 205
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_14
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 456
+        width: 206
+        height: 399
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_16
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 456
+        width: 204
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 19
+        width: 205
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 19
+        width: 208
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_22
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 19
+        width: 212
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_24
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 19
+        width: 216
+        height: 400
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_26
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 20
+        width: 217
+        height: 399
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_so_27
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 20
+        width: 220
+        height: 396
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

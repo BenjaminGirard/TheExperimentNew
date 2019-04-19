@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 50c579bb91bb805448495cc852d3dae9
+timeCreated: 1430673254
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fire_no_0
+    21300002: fire_no_1
+    21300004: fire_no_2
+    21300006: fire_no_3
+    21300008: fire_no_4
+    21300010: fire_no_5
+    21300012: fire_no_6
+    21300014: fire_no_7
+    21300016: fire_no_8
+    21300018: fire_no_9
+    21300020: fire_no_10
+    21300022: fire_no_11
+    21300024: fire_no_12
+    21300026: fire_no_13
+    21300028: fire_no_14
+    21300030: fire_no_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: WebGL
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: fire_no_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_3
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_4
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_5
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_6
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_7
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_8
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_9
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 338
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 12
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 12
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_12
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 12
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_13
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 12
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_14
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 14
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fire_no_15
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 12
+        width: 236
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

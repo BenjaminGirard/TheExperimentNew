@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 5b0ede1ccc8b18944a4c8c93ffb10aa1
+timeCreated: 1430498708
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: run_no_0
+    21300002: run_no_1
+    21300004: run_no_2
+    21300006: run_no_3
+    21300008: run_no_4
+    21300010: run_no_5
+    21300012: run_no_6
+    21300014: run_no_7
+    21300016: run_no_8
+    21300018: run_no_9
+    21300020: run_no_10
+    21300022: run_no_11
+    21300024: run_no_12
+    21300026: run_no_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Web
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: WebGL
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: run_no_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 454
+        width: 198
+        height: 400
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 454
+        width: 199
+        height: 398
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_2
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 459
+        width: 200
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_3
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 469
+        width: 199
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_4
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 484
+        width: 229
+        height: 370
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_5
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 492
+        width: 226
+        height: 362
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_6
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 488
+        width: 230
+        height: 363
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 35
+        width: 235
+        height: 364
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 35
+        width: 227
+        height: 363
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_9
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 45
+        width: 226
+        height: 361
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_10
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 19
+        width: 226
+        height: 380
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_11
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 13
+        width: 226
+        height: 393
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_12
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 7
+        width: 225
+        height: 399
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_no_13
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 17
+        width: 225
+        height: 400
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
