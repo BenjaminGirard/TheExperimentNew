@@ -1,30 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Vector2 = UnityEngine.Vector2;
+using Vector3 = UnityEngine.Vector3;
+
 public class PlayerControler : MonoBehaviour
 {
-    public float speed;
-    private Rigidbody2D rb;
-    private Vector2 moveVelocity;
-    public Grid grid;
+    [SerializeField]
+    private float _speed = 50;
+    private Rigidbody2D _rb;
+    private Vector2 _moveVelocity;
+    public Grid Grid;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        _rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        moveVelocity = moveInput.normalized * speed;
+        _moveVelocity = moveInput.normalized * _speed;
 
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector3Int coordinate = grid.WorldToCell(mouseWorldPos);
-            Debug.Log(grid.name);
+            Vector3Int coordinate = Grid.WorldToCell(mouseWorldPos);
+            Debug.Log(Grid.name);
             Debug.Log(coordinate);
 
             GameObject go = (GameObject)Instantiate(Resources.Load("crate_0"));
@@ -38,9 +43,8 @@ public class PlayerControler : MonoBehaviour
         }
 
     }
-
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveVelocity * Time.deltaTime);
+        _rb.AddForce(_moveVelocity); 
     }
 }
