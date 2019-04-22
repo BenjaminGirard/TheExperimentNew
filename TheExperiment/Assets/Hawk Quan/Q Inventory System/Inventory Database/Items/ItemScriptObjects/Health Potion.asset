@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Health Potion
   ID: 2
-  icon: {fileID: 21300044, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
-  m_object: {fileID: 1611221362436220, guid: 34262a99339ada1448bfa0e6e3f65166, type: 2}
+  icon: {fileID: 21300000, guid: 4b8fc6519cecc4284a909b57b40bbb70, type: 3}
+  m_object: {fileID: 7405146382506720597, guid: 82e542fc9069e4829a8a44e1bb1405c0,
+    type: 3}
   isStackable: 1
   maxStackNumber: 10
   description: You must need it

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 27beae43197724d29b8dc6dd902c1fc6
+=======
 guid: d73d7db5c0415f1409f333d875948fa3
+>>>>>>> origin/matteo
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,19 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bluePrintName: Health Potion
   category: {fileID: 11400000, guid: 2c6e5c58edc019b489e109165996a5b3, type: 2}
-  icon: {fileID: 21300044, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
+  icon: {fileID: 21300000, guid: 4b8fc6519cecc4284a909b57b40bbb70, type: 3}
   targetItem: {fileID: 11400000, guid: db9a8871c144570419dfcf22658ee2d8, type: 2}
   craftingAmount: 1
   ingredients:
   - ingredient: {fileID: 11400000, guid: b02490634a0291940b04cbe484315e12, type: 2}
     amount: 2
-  - ingredient: {fileID: 11400000, guid: b60f3fa2cdb34634a82e4796d2727201, type: 2}
+  - ingredient: {fileID: 11400000, guid: 94c42a0f923fb4d9ca5c3d186437236d, type: 2}
     amount: 1
-  craftingPrices:
-  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
-    amount: 0
-  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
-    amount: 5
+  craftingPrices: []
   successChance: 1
   craftingTime: 2
   CDAllWhenCrafting: 1
