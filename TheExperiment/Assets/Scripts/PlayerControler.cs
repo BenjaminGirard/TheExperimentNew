@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using QInventory;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 public class PlayerControler : MonoBehaviour
@@ -8,6 +10,8 @@ public class PlayerControler : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
     public Grid grid;
+
+    public GameObject inventory;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,8 +28,6 @@ public class PlayerControler : MonoBehaviour
         {
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector3Int coordinate = grid.WorldToCell(mouseWorldPos);
-            Debug.Log(grid.name);
-            Debug.Log(coordinate);
 
             GameObject go = (GameObject)Instantiate(Resources.Load("crate_0"));
             go.transform.position = coordinate;
