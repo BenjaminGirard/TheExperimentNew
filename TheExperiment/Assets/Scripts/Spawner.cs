@@ -71,6 +71,7 @@ public class Spawner : MonoBehaviour
 	//----------------------------------
 	// End of Enemy Prefabs
 	//----------------------------------
+	private Animator _portalAnimator;
  
 	//----------------------------------
 	// Enemies and how many have been created and how many are to be created
@@ -109,6 +110,7 @@ public class Spawner : MonoBehaviour
 		Enemies.Add(EnemyLevels.Boss, BossEnemy);
 		Enemies.Add(EnemyLevels.Medium, MediumEnemy);
 		Enemies.Add(EnemyLevels.Hard, HardEnemy);
+		_portalAnimator = transform.GetComponentInChildren<Animator>();
 	}
 	// Draws a cube to show where the spawn point is... Useful if you don't have a object that show the spawn point
 	void OnDrawGizmos()
@@ -212,6 +214,7 @@ public class Spawner : MonoBehaviour
 	// spawns an enemy based on the enemy level that you selected
 	private void spawnEnemy()
 	{
+		_portalAnimator.Play("Portal_Appear");
 		GameObject Enemy = (GameObject) Instantiate(Enemies[enemyLevel], gameObject.transform.position, Quaternion.identity);
 		Enemy.SendMessage("setName", SpawnID);
 		// Increase the total number of enemies spawned and the number of spawned enemies
