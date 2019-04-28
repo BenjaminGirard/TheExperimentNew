@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
+using Vector2 = UnityEngine.Vector2;
 
 public class CollisionManager : MonoBehaviour
 {
     [SerializeField]
     private int _bumpForce = 20;
+    [SerializeField]
+    private bool _isEnemy = true;
     private HealthManager _healthManager;
     private Rigidbody2D _rigidbody2D;
+    private Vector2 _collisionDirection;
     
     // Start is called before the first frame update
     void Start()
@@ -18,19 +23,20 @@ public class CollisionManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (!other.gameObject.CompareTag("DamageDealer")) return;
-        ContactPoint2D collisionPoint = other.GetContact(0);
+        if (!other.gameObject.CompareTag("DamageDealer") || _isEnemy && other.gameObject.CompareTag("Enemy"))
+            return;
         if (_rigidbody2D)
         {
-            Vector2 collisionDirection = (Vector2)transform.position - collisionPoint.point;
-            _rigidbody2D.AddForce(collisionDirection * _bumpForce, ForceMode2D.Impulse);
+            _collisionDirection = (Vector2)transform.position - other.GetContact(0).point;
+            _rigidbody2D.AddForce(_collisionDirection * _bumpForce, ForceMode2D.Impulse);
         }
         _healthManager.TakeDamage(other.gameObject.GetComponent<DamageDealer>().Damage);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.gameObject.CompareTag("DamageDealer")) return;
+        if (!other.gameObject.CompareTag("DamageDealer") || _isEnemy && other.gameObject.CompareTag("Enemy"))
+            return;
         _healthManager.TakeDamage(other.gameObject.GetComponent<DamageDealer>().Damage);        
     }
 }

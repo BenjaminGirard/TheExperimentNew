@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Spawner
   - DamageDealer
+  - Enemy
   layers:
   - Default
   - TransparentFX

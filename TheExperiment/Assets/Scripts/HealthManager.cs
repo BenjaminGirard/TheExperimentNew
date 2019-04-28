@@ -20,7 +20,7 @@ public class HealthManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _animator = GetComponent<Animator>();
+        _animator = GetComponentInChildren<Animator>();
         _healthBar = GetComponentInChildren<HealthBar>();
         _currentHealth = _maxHealth;
         _isDead = false;
@@ -52,5 +52,10 @@ public class HealthManager : MonoBehaviour
             _animator.SetBool("isDead", false);
             _isDead = false;
         }        
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);
     }
 }
