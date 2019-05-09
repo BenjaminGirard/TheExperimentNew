@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,9 +13,9 @@ MonoBehaviour:
   m_Name: Sword
   m_EditorClassIdentifier: 
   itemName: Sword
-  ID: 6
+  ID: 8
   icon: {fileID: 21300312, guid: bddecc020f6bf0445b97e3d1be62d39c, type: 3}
-  m_object: {fileID: 1746102363319232, guid: 65b2d4e5cb95cfc4bb0b55b0961a9f35, type: 2}
+  m_object: {fileID: 1746102363319232, guid: 65b2d4e5cb95cfc4bb0b55b0961a9f35, type: 3}
   isStackable: 0
   maxStackNumber: 1
   description: sharp

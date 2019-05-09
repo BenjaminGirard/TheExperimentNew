@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Axe
   m_EditorClassIdentifier: 
   itemName: Axe
-  ID: 4
+  ID: 2
   icon: {fileID: 21300000, guid: 977094bacdebe46be86ef9d5a915e3c5, type: 3}
   m_object: {fileID: 1195707725122680, guid: 67660d9d86e704a46ba98f21661130a0, type: 3}
   isStackable: 0
