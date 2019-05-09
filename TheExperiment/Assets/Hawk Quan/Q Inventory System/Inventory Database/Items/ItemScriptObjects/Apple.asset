@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Apple
   ID: 1
-  icon: {fileID: 21300288, guid: bddecc020f6bf0445b97e3d1be62d39c, type: 3}
+  icon: {fileID: 21300000, guid: 857abd4b2cc1642649168ef3e95af67e, type: 3}
   m_object: {fileID: 1531821212096490, guid: 834b4dde2f8ebb04bbfa49d73c1354a5, type: 3}
   isStackable: 1
   maxStackNumber: 10

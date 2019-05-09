@@ -3,33 +3,35 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
-  m_Name: Sphere
+  m_Name: High Quality Metal
   m_EditorClassIdentifier: 
-  itemName: Sphere
-  ID: 12
-  icon: {fileID: 21300000, guid: f71d90d1e8ac9a34ba3cfc18f30bfe62, type: 3}
-  m_object: {fileID: 1986056584722732, guid: d31f5b4499aeeb44bb5b9a3aefff2e5a, type: 2}
+  itemName: High Quality Metal
+  ID: 9
+  icon: {fileID: 21300000, guid: ab79acc535e2f4218956eb389a54bb3d, type: 3}
+  m_object: {fileID: 3379520617899917612, guid: 4558457f9aeb1465099def873a3c12a4,
+    type: 3}
   isStackable: 1
   maxStackNumber: 10
-  description: Just a sphere
+  description: Rare and precious
   variety: 2
-  rarity: 0
+  rarity: 3
   buy_Price:
   - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
-    amount: 0
+    amount: 20
   - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
-    amount: 2
+    amount: 0
   sell_Price:
   - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
     amount: 0
   - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
-    amount: 1
+    amount: 0
   clipOnUse: {fileID: 0}
   playClipTimes: 0
   coolDown: 0
