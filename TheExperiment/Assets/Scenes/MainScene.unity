@@ -648,7 +648,7 @@ PrefabInstance:
     - target: {fileID: 114629996654141658, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: craftingBluePrints.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114629996654141658, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -682,7 +682,7 @@ PrefabInstance:
         type: 3}
       propertyPath: craftingBluePrints.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: b1e895dcaf36e8541a36989a1ca471e2,
+      objectReference: {fileID: 11400000, guid: 2428716b25c7846469cab197e42a0cd4,
         type: 2}
     - target: {fileID: 114606764693122780, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -829,7 +829,7 @@ PrefabInstance:
     - target: {fileID: 224814907299455808, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000010423185
+      value: 0.0000034530476
       objectReference: {fileID: 0}
     - target: {fileID: 224301010969799016, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -839,7 +839,7 @@ PrefabInstance:
     - target: {fileID: 224765271446289128, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00002568196
+      value: 0.000018711838
       objectReference: {fileID: 0}
     - target: {fileID: 224668587628782912, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}

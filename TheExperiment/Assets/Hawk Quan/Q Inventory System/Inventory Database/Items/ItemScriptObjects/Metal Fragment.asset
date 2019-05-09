@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: High Quality Metal
   ID: 6
   icon: {fileID: 21300000, guid: 7c3304031cc1e4726a95ddf848f1d3ed, type: 3}
-  m_object: {fileID: 3379520617899917612, guid: 4558457f9aeb1465099def873a3c12a4,
+  m_object: {fileID: 3379520617899917612, guid: 6e2658b43d4c74837a5cfc60e8db1232,
     type: 3}
   isStackable: 1
   maxStackNumber: 10
