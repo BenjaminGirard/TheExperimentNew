@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Metal Pipe
   ID: 12
   icon: {fileID: 21300000, guid: afb6fd045e8b4472ea0e5b238e4498b1, type: 3}
-  m_object: {fileID: 3379520617899917612, guid: f6a579115a28e4ba393c90a573d64cbb,
+  m_object: {fileID: 3379520617899917612, guid: b5b5e39e085d64f28be8ee752b44730e,
     type: 3}
   isStackable: 1
   maxStackNumber: 10
