@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6239226136337923142}
   - component: {fileID: 7506051684216454093}
   m_Layer: 0
-  m_Name: Portal
+  m_Name: Portal Spider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,13 +48,14 @@ MonoBehaviour:
   enemyLevel: 0
   EasyEnemy: {fileID: 5141863624006078806, guid: 662540717cbe91043b4aa3a0d4b1e382,
     type: 3}
-  MediumEnemy: {fileID: 0}
+  MediumEnemy: {fileID: 5141863624006078806, guid: 38fa28cbf9a6b4a25a6f10fff558ec76,
+    type: 3}
   HardEnemy: {fileID: 0}
   BossEnemy: {fileID: 0}
-  totalEnemy: 10
+  totalEnemy: 2
   Spawn: 1
-  spawnType: 0
-  waveTimer: 30
+  spawnType: 3
+  waveTimer: 5
   totalWaves: 5
 --- !u!1001 &6713473270684148136
 PrefabInstance:

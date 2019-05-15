@@ -231,24 +231,24 @@ namespace QInventory
 
        void AddBluePrints()
         {
-            /*if (categories.Count > 0)
-            {
+//            if (categories.Count > 0)
+ //           {
                 foreach (var bluePrint in Q_GameMaster.Instance.inventoryManager.itemDataBase.bluePrints)
                 {
-                    foreach (var category in categories)
-                    {
-                        if(bluePrint.category == category)
-                        {
+//                    foreach (var category in categories)
+//                    {
+ //                       if(bluePrint.category == category)
+  //                      {
                             AddItem(bluePrint);
-                            break;
-                        }
-                    }
+  //                          break;
+   //                     }
+    //                }
                 }
-            }*/
-            foreach (CraftingBluePrint m_CraftingBluePrint in craftingBluePrints)
+//            }
+/*            foreach (CraftingBluePrint m_CraftingBluePrint in craftingBluePrints)
             {
                 AddItem(m_CraftingBluePrint);
-            }
+            }*/
 
         }
 

@@ -26,10 +26,9 @@ GameObject:
   - component: {fileID: 5406765540854195567}
   - component: {fileID: 4802537503816110135}
   - component: {fileID: 2445886798748734681}
-  - component: {fileID: 6502053197027016566}
-  - component: {fileID: 1284567010209168370}
+  - component: {fileID: 5313314984186657020}
   m_Layer: 0
-  m_Name: Demon
+  m_Name: Spider
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 10
---- !u!114 &6502053197027016566
+--- !u!114 &5313314984186657020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,19 +145,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5141863624006078806}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b6eb49d199194bd496eb901ce295d5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 20
---- !u!114 &1284567010209168370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5141863624006078806}
-  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 146c3ad07c924373b3615eb4d33f3cdf, type: 3}
   m_Name: 
@@ -175,7 +161,7 @@ PrefabInstance:
     - target: {fileID: 6866373388702071392, guid: 8182f0adac27e49f1b885e838a346fcc,
         type: 3}
       propertyPath: m_Name
-      value: Demon_Idle
+      value: Spider Idle
       objectReference: {fileID: 0}
     - target: {fileID: 6866373388702071397, guid: 8182f0adac27e49f1b885e838a346fcc,
         type: 3}
@@ -242,6 +228,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6.468
       objectReference: {fileID: 0}
+    - target: {fileID: 6866373388702071399, guid: 8182f0adac27e49f1b885e838a346fcc,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9ba2ef1972a67d3409f3fd6ab3893049, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8182f0adac27e49f1b885e838a346fcc, type: 3}
 --- !u!1 &1734399942071218606 stripped
