@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a387c30a47e70bf4c83694a1d7c32259, type: 3}
+  m_Name: Wood Bow
+  m_EditorClassIdentifier: 
+  bluePrintName: Wood Bow
+  category: {fileID: 11400000, guid: 0ab766da35b7b0f4d9816f43c732794f, type: 2}
+  icon: {fileID: 21300000, guid: 4136dc2f200bbac4789b2a8b2ebfc81e, type: 3}
+  targetItem: {fileID: 11400000, guid: 1139906105476d3439a4312b56e96e78, type: 2}
+  craftingAmount: 1
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: 94c42a0f923fb4d9ca5c3d186437236d, type: 2}
+    amount: 10
+  - ingredient: {fileID: 11400000, guid: 22b60c11f2e41479ebc65ecf2b93970a, type: 2}
+    amount: 5
+  craftingPrices: []
+  successChance: 1
+  craftingTime: 2
+  CDAllWhenCrafting: 1
+  moveAfterCrafting: 1
