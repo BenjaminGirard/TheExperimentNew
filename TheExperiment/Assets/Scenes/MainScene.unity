@@ -563,7 +563,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Grid
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1585333564}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39e45557a92de49179457df4be090459, type: 3}
 --- !u!1001 &682135655
@@ -743,7 +743,7 @@ PrefabInstance:
     - target: {fileID: 114629996654141658, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: craftingBluePrints.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114629996654141658, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -778,6 +778,12 @@ PrefabInstance:
       propertyPath: craftingBluePrints.Array.data[1]
       value: 
       objectReference: {fileID: 11400000, guid: 2428716b25c7846469cab197e42a0cd4,
+        type: 2}
+    - target: {fileID: 114629996654141658, guid: eb8fa11bc5577af4eb790cc46ac25628,
+        type: 3}
+      propertyPath: craftingBluePrints.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 170259c32789e411287e5c455d7c2391,
         type: 2}
     - target: {fileID: 114606764693122780, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -924,7 +930,7 @@ PrefabInstance:
     - target: {fileID: 224814907299455808, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000004809725
+      value: -0.000016446711
       objectReference: {fileID: 0}
     - target: {fileID: 224301010969799016, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -934,7 +940,7 @@ PrefabInstance:
     - target: {fileID: 224765271446289128, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0000104490655
+      value: -0.0000011879218
       objectReference: {fileID: 0}
     - target: {fileID: 224668587628782912, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -988,6 +994,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb8fa11bc5577af4eb790cc46ac25628, type: 3}
+--- !u!156049354 &1585333564 stripped
+Grid:
+  m_CorrespondingSourceObject: {fileID: 2548903564646589636, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2548903565588894688}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2548903565588894688
 PrefabInstance:
   m_ObjectHideFlags: 0

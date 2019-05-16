@@ -521,6 +521,8 @@ namespace QInventory
         {
             yield return new WaitForSeconds(cd);
             inv.GetComponent<Crafting>().DeleteCDList(slot);
+            Debug.Log(flag);
+            Debug.Log(Q_GameMaster.Instance.inventoryManager);
             Q_GameMaster.Instance.inventoryManager.activeCraftTrigger.bluePrints[flag].isMoved = true;
             Debug.Log(flag);
             ClearItem();
