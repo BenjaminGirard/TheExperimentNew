@@ -7,6 +7,15 @@ TagManager:
   - Spawner
   - DamageDealer
   - Enemy
+  - Storage
+  - Item
+  - Inventory
+  - Vendor
+  - Craft
+  - Equipment
+  - SkillBar
+  - Weapon
+  - Portal
   layers:
   - Default
   - TransparentFX

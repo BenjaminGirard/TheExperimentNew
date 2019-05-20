@@ -87,7 +87,7 @@ namespace QInventory
         public virtual ItemData AddItem(int id)
         {
             Item newItem = Q_GameMaster.Instance.inventoryManager.itemDataBase.getItemByID(id);
-            Debug.Log("get " + newItem.itemName);
+            
             int temp = CheckItem(id);
             if (newItem.isStackable && temp != -1)//如果item是可以重叠并且背包中已经有该物品了
             {

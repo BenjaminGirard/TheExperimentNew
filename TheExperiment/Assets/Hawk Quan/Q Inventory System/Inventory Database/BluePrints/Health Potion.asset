@@ -25,5 +25,5 @@ MonoBehaviour:
   craftingPrices: []
   successChance: 1
   craftingTime: 2
-  CDAllWhenCrafting: 1
-  moveAfterCrafting: 1
+  CDAllWhenCrafting: 0
+  moveAfterCrafting: 0

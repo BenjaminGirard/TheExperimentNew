@@ -26,8 +26,11 @@ namespace QInventory
         //}
         public void AddItem(ItemData itemData)
         {
+            if (itemData.item.equipmentPart == QInventory.EquipmentPart.LeftHand)
+                GameObject.FindGameObjectWithTag("Player").GetComponent<WeaponManager>().WeaponEquiped = itemData;
             foreach (var slot in equipmentSlot)
             {
+                Debug.Log(itemData.item.equipmentPart);
                 if (slot.equipmentPart == itemData.item.equipmentPart)
                 {
                     if (slot.transform.childCount == 1)
@@ -67,4 +70,3 @@ namespace QInventory
         }
     }
 }
-
