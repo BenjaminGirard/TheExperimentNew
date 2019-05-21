@@ -5,14 +5,16 @@ using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
 {
+    private bool isWeaponEquiped = false;
+    
     [HideInInspector]
     public ItemData WeaponEquiped;
 
     private void Update()
     {
-        if (WeaponEquiped)
+        if (isWeaponEquiped)
         {
-            // do something
+            Debug.Log("Weapon Equiped !");
         }
     }
     
@@ -22,4 +24,9 @@ public class WeaponManager : MonoBehaviour
         Debug.Log("You have clicked the button!");
     }
 
+    public void EquipItem(ItemData weapon)
+    {
+        isWeaponEquiped = true;
+        WeaponEquiped = weapon;
+    }    
 }
