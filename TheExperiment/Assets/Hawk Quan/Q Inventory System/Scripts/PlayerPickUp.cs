@@ -17,7 +17,6 @@ namespace QInventory
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            print("toto");
             GameObjectData GOD = null;
             if (!(GOD = collision.GetComponent<GameObjectData>()))
                 return;

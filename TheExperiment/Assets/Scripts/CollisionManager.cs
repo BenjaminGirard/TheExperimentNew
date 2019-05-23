@@ -23,7 +23,7 @@ public class CollisionManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (!other.gameObject.CompareTag("DamageDealer") || _isEnemy && other.gameObject.CompareTag("Enemy"))
+        if (_isEnemy && other.gameObject.CompareTag("Enemy"))
             return;
         if (_rigidbody2D)
         {

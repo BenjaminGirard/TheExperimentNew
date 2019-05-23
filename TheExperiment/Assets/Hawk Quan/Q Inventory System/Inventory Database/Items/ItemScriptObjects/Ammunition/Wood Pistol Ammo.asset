@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Wood Pistol Ammo
+  m_EditorClassIdentifier: 
+  itemName: Wood Pistol Ammo
+  ID: 17
+  icon: {fileID: 21300000, guid: 97d9e6c2e4d8a5b478ca817d79506f4a, type: 3}
+  m_object: {fileID: 7405146382506720597, guid: b7837c8cca2c24a37a0e1b8766590d90,
+    type: 3}
+  isStackable: 0
+  maxStackNumber: 1
+  description: 'Ammunition for wood pistol, not very efficient
+
+'
+  variety: 2
+  rarity: 1
+  buy_Price: []
+  sell_Price: []
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes: []
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 1
+  equipmentItemAttributes:
+  - equipmentItemAttribute: {fileID: 11400000, guid: ff31e49a58bd0214da32d49f7e3a2891,
+      type: 2}
+    effectType: 2
+    value: 100

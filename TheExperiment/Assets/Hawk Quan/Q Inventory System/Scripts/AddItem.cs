@@ -11,4 +11,3 @@ namespace QInventory
         public ItemToAdd[] itemsToAdd;
     }
 }
-

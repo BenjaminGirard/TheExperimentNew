@@ -10,13 +10,15 @@ using Vector3 = UnityEngine.Vector3;
 
 public class PlayerControler : MonoBehaviour
 {
+    public Animator animator;
+    
     public GameObject inventory;
     [SerializeField]
     private float _speed = 50;
     private Rigidbody2D _rb;
     private Vector2 _moveVelocity;
     public Grid Grid;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,11 @@ public class PlayerControler : MonoBehaviour
     void Update()
     {
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        animator.SetFloat("Horizontal", moveInput.x);
+        animator.SetFloat("Vertical", moveInput.y);
+        animator.SetFloat("Magnitude", moveInput.magnitude);
+        
         _moveVelocity = moveInput.normalized * _speed;
 
         if (Input.GetMouseButtonDown(0))
@@ -47,6 +54,6 @@ public class PlayerControler : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        _rb.AddForce(_moveVelocity); 
+        _rb.AddForce(_moveVelocity);
     }
 }

@@ -18,7 +18,7 @@ namespace QInventory
         private GameObject m_CraftPanel;
         private GameObject m_CraftSlot;
         private GameObject m_CraftItem;
-        //private Inventory playerInventory;
+        private Q_Inventory playerInventory;
         //private List<CoolDown> cds = new List<CoolDown>(); 
 
         protected override void Start()
@@ -28,7 +28,7 @@ namespace QInventory
             m_CraftPanel = transform.GetChild(0).gameObject;
             m_CraftSlot = Q_GameMaster.Instance.inventoryManager.m_CraftSlot;
             m_CraftItem = Q_GameMaster.Instance.inventoryManager.m_CraftItem;
-            //playerInventory = Q_GameMaster.Instance.inventoryManager.playerInventory;
+            playerInventory = Q_GameMaster.Instance.inventoryManager.playerInventory;
 
             //--------------------分割线----------------------
             //初始化添加格子
@@ -289,7 +289,8 @@ namespace QInventory
                 {
                     Debug.Log("Crafting Success");
                     //废用的,直接加到玩家背包里，他们说不好
-                    //playerInventory.AddItem(id);
+                    Debug.Log(itemdata.item.ID);
+                    playerInventory.AddItem(itemdata.item.ID);
 
                     //现在是在指定合成地点掉落
                     //Instantiate(Q_GameMaster.Instance.inventoryManager.itemDataBase.getItemByID(itemdata.item.ID).m_object, craftingSpawningPosition.position + spawnOffset, Quaternion.identity);

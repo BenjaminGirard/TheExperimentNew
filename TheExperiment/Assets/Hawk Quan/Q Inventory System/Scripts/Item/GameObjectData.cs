@@ -24,10 +24,10 @@ namespace QInventory
             yield return new WaitForSeconds(0.01f);
             inv = Q_GameMaster.Instance.inventoryManager.playerInventory;
             Vector3 scale = Q_GameMaster.Instance.inventoryManager.player.transform.localScale;
-            if (!isEquipped)
-            {
-                transform.localScale = new Vector3(scale.x * transform.localScale.x, scale.y * transform.localScale.y, scale.z * transform.localScale.z);
-            }
+            //if (!isEquipped)
+            //{
+            //    transform.localScale = new Vector3(scale.x * transform.localScale.x, scale.y * transform.localScale.y, scale.z * transform.localScale.z);
+            //}
         }
 
         public void AddItemSelf()
