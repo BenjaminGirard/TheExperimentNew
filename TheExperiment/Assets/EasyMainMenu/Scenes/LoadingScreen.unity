@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -112,80 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &77604161
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 77604162}
-  - component: {fileID: 77604164}
-  - component: {fileID: 77604163}
-  m_Layer: 5
-  m_Name: Logo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &77604162
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77604161}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1158648548}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 286, y: 138}
-  m_SizeDelta: {x: 163, y: 122}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &77604163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77604161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f04ff5784b2d1f242b0591c7978f4fc1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &77604164
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77604161}
-  m_CullTransparentMesh: 0
 --- !u!1 &99827524
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +408,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1158648548}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -590,7 +516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &538715404
@@ -1038,7 +964,6 @@ RectTransform:
   - {fileID: 1491297677}
   - {fileID: 1012017832}
   - {fileID: 149725190}
-  - {fileID: 77604162}
   - {fileID: 336320490}
   m_Father: {fileID: 1294310040}
   m_RootOrder: 0
@@ -1090,10 +1015,12 @@ MonoBehaviour:
   showImageTransition: 1
   showRandomImageTransition: 1
   LoadingScreenImages:
-  - {fileID: 21300000, guid: e61266b9360984f4e97281466f4957d4, type: 3}
-  - {fileID: 21300000, guid: e85a4a4bf4123034c8fb3532ada1cc1f, type: 3}
-  - {fileID: 21300000, guid: 77f4e7ba69bf1344eb5e53f53e72ce1f, type: 3}
-  - {fileID: 21300000, guid: dea2f32ebf1c0aa4194b6ce88f11bd9a, type: 3}
+  - {fileID: 21300000, guid: d88d345954f567241914e8072522c1f7, type: 3}
+  - {fileID: 21300000, guid: 3ffe41964b1172f42808417e331b4961, type: 3}
+  - {fileID: 21300000, guid: 1ea94d353b0b6e64b880fa44f714abbf, type: 3}
+  - {fileID: 21300000, guid: 4c8ff80daaca1334cac96f3a0591d4af, type: 3}
+  - {fileID: 21300000, guid: d37df7758e570ba458ea651908a8ada3, type: 3}
+  - {fileID: 21300000, guid: 77452d63bf875ca488b521d6007f0363, type: 3}
   transitionDuration: 3
   transitionFader: {fileID: 538715408}
   showContinueText: 1

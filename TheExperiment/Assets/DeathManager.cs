@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeathManager : MonoBehaviour
 {
@@ -14,9 +15,6 @@ public class DeathManager : MonoBehaviour
     void Update()
     {
         if (GetComponent<HealthManager>().IsDead)
-            Debug.Log("dead boy");
- // SceneManager.LoadScene ();
-            
-
+            SceneManager.LoadScene(0);
     }
 }

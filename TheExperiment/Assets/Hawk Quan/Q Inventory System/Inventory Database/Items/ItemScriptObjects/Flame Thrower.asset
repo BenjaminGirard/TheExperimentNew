@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Flame Thrower
   m_EditorClassIdentifier: 
   itemName: Flame Thrower
-  ID: 12
+  ID: 13
   icon: {fileID: 21300000, guid: 10c6941c0f1856e45a2413109569ccc1, type: 3}
   m_object: {fileID: 7405146382506720597, guid: 82c4421047426d44f8dc61747efc4208,
     type: 3}
