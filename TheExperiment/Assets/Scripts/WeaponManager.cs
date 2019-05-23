@@ -20,8 +20,11 @@ public class WeaponManager : MonoBehaviour
     
     void TaskOnClick()
     {
-        //Output this to console when Button1 or Button3 is clicked
-        Debug.Log("You have clicked the button!");
+        if (!WeaponEquiped) return;
+        
+       
+        
+       Debug.Log("You have clicked the button!");
     }
 
     public void EquipItem(ItemData weapon)
