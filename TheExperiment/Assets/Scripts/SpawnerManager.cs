@@ -32,14 +32,28 @@ public class SpawnerManager : MonoBehaviour
     public int DifficultyIdx = 1;
 
 
+    private GameObject grid;
+    
     private void Awake()
     {
-        TimeBetweenWaves = DefaultTimeBetweenWaves;        
+        TimeBetweenWaves = DefaultTimeBetweenWaves;
+        grid = GameObject.FindGameObjectWithTag("Grid");
     }
 
     // Start is called before the first frame update
     void Start()
     {
+    }
+
+    void SpawnPickables()
+    {
+        ItemsSpawner tmp;
+        foreach (Transform child in grid.transform)
+        {
+            tmp = child.GetComponent<ItemsSpawner>();
+            if (tmp)
+                tmp.Spawn();    
+        }
     }
 
     // Update is called once per frame
@@ -52,6 +66,9 @@ public class SpawnerManager : MonoBehaviour
             {
                 Status = SpawnStatus.WAIT;
                 int _difficultyCountDown = DifficultyIdx;
+                
+                SpawnPickables();
+                
                 while (_difficultyCountDown > 0)
                 {
                     if (_difficultyCountDown > _bossRate && Random.Range(0, 100) > 25)
@@ -95,7 +112,6 @@ public class SpawnerManager : MonoBehaviour
         {
             if (Status == SpawnStatus.SPAWN)
             {
-                Debug.Log("reseting portals");
                 TimeBetweenWaves = DefaultTimeBetweenWaves;
                 foreach (var portal in GameObject.FindGameObjectsWithTag("Portal"))
                 {

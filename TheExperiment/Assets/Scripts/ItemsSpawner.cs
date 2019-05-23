@@ -15,6 +15,17 @@ public class ItemsSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Spawn();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void Spawn()
+    {
         int index = 0;
         int rnd = 0;
         availablePlaces = new List<Vector3>();
@@ -40,11 +51,5 @@ public class ItemsSpawner : MonoBehaviour
                 availablePlaces.RemoveAt(rnd);
             }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

@@ -247,9 +247,21 @@ MonoBehaviour:
   MediumPortals: []
   HardPortals: []
   BossPortals: []
-  DefaultTimeBetweenWaves: 5
+  DefaultTimeBetweenWaves: 10
   TimeBetweenWaves: 30
   DifficultyIdx: 1
+--- !u!114 &316062630 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4080235852582192584, guid: 5ed50337d6b254469a92007bfdac7488,
+    type: 3}
+  m_PrefabInstance: {fileID: 4523972690714116593}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43012e92b4dbb0428604fd13e3c7e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &398247302
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +972,7 @@ PrefabInstance:
     - target: {fileID: 224814907299455808, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00001769009
+      value: 0.000011815751
       objectReference: {fileID: 0}
     - target: {fileID: 224301010969799016, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -970,7 +982,7 @@ PrefabInstance:
     - target: {fileID: 224765271446289128, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000032948887
+      value: 0.00002707454
       objectReference: {fileID: 0}
     - target: {fileID: 224668587628782912, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -1319,6 +1331,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid
       objectReference: {fileID: 0}
+    - target: {fileID: 2548903564646589635, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grid
+      objectReference: {fileID: 0}
     - target: {fileID: 2548903564646589637, guid: 593c9295fc41a46ec8dd04115e24e2c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1401,6 +1418,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WeaponEquiped: {fileID: 0}
+--- !u!114 &4154572301719183937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4154572301719183934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e674d2d0ef50444d8a5e20e33fe83d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4523972690714116593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1492,6 +1521,16 @@ PrefabInstance:
         type: 3}
       propertyPath: maxHealth
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 531530646002295753, guid: 5ed50337d6b254469a92007bfdac7488,
+        type: 3}
+      propertyPath: _healthBar
+      value: 
+      objectReference: {fileID: 316062630}
+    - target: {fileID: 531530646002295751, guid: 5ed50337d6b254469a92007bfdac7488,
+        type: 3}
+      propertyPath: _isEnemy
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed50337d6b254469a92007bfdac7488, type: 3}

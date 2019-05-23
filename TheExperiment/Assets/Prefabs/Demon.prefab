@@ -27,7 +27,6 @@ GameObject:
   - component: {fileID: 4802537503816110135}
   - component: {fileID: 2445886798748734681}
   - component: {fileID: 6502053197027016566}
-  - component: {fileID: 1284567010209168370}
   m_Layer: 0
   m_Name: Demon
   m_TagString: Enemy
@@ -111,8 +110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthBar: {fileID: 8590263930045374832}
-  maxHealth: 100
-  isPlayer: 0
 --- !u!114 &4802537503816110135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,20 +150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 20
---- !u!114 &1284567010209168370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5141863624006078806}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 146c3ad07c924373b3615eb4d33f3cdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 10
-  Sight: 10
 --- !u!1001 &5141863625297021902
 PrefabInstance:
   m_ObjectHideFlags: 0

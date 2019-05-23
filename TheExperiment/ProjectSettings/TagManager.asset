@@ -16,6 +16,7 @@ TagManager:
   - SkillBar
   - Weapon
   - Portal
+  - Grid
   layers:
   - Default
   - TransparentFX
