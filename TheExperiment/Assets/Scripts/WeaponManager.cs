@@ -24,12 +24,7 @@ public class WeaponManager : MonoBehaviour
         
        
         
-       Debug.Log("You have clicked the button!");
     }
 
-    public void EquipItem(ItemData weapon)
-    {
-        isWeaponEquiped = true;
-        WeaponEquiped = weapon;
-    }    
+       
 }

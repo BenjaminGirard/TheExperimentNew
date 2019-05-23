@@ -23,7 +23,7 @@ public class CollisionManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (_isEnemy && other.gameObject.CompareTag("Enemy"))
+        if (CompareTag("Player") || (_isEnemy && other.gameObject.CompareTag("Enemy")))
             return;
         if (_rigidbody2D)
         {
@@ -35,7 +35,7 @@ public class CollisionManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.gameObject.CompareTag("DamageDealer") || _isEnemy && other.gameObject.CompareTag("Enemy"))
+        if (!other.gameObject.CompareTag("DamageDealer") || (_isEnemy && other.gameObject.CompareTag("Enemy")) || CompareTag("Player") )
             return;
         _healthManager.TakeDamage(other.gameObject.GetComponent<DamageDealer>().Damage);        
     }

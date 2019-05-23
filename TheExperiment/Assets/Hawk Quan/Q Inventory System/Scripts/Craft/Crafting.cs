@@ -289,7 +289,6 @@ namespace QInventory
                 {
                     Debug.Log("Crafting Success");
                     //废用的,直接加到玩家背包里，他们说不好
-                    Debug.Log(itemdata.item.ID);
                     playerInventory.AddItem(itemdata.item.ID);
 
                     //现在是在指定合成地点掉落

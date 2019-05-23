@@ -17,6 +17,8 @@ TagManager:
   - Weapon
   - Portal
   - Grid
+  - ClassicProjectile
+  - Hand
   layers:
   - Default
   - TransparentFX
