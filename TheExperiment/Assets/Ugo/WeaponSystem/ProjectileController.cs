@@ -24,7 +24,7 @@ public class ProjectileController : MonoBehaviour
     void Update()
     {
         
-        if (GetComponentInParent<WeaponSystem>().isWeaponEquiped && isFiring)
+        if (/*GetComponentInParent<WeaponSystem>().isWeaponEquiped &&*/ isFiring)
         {
             shotCounter -= Time.deltaTime;
             if (shotCounter <= 0)

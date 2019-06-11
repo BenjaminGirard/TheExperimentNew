@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DamageDealer : MonoBehaviour
 {
+    public bool _isLaunchByPlayer = false;
     [SerializeField]
     private int _damage = 1;
 

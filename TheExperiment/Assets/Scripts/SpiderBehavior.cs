@@ -23,13 +23,6 @@ public class SpiderBehavior : MonoBehaviour
  
     void Update()
     {
-        if (_healthManager.IsDead)
-        {
-            _rb.Sleep();
-            _rb.velocity = Vector2.zero;
-            _rb.angularVelocity = 0;
-            return;
-        }
         if (_rb.velocity.magnitude > 0.3)
         {
             if (_isIdle)
@@ -42,11 +35,21 @@ public class SpiderBehavior : MonoBehaviour
                 _animator.SetBool("isIdle", true);
             _isIdle = true;
         }
+        if (_healthManager.IsDead)
+        {
+            _animator.SetBool("isIdle", true);
+            _rb.Sleep();
+            _rb.velocity = Vector2.zero;
+            _rb.angularVelocity = 0;
+            return;
+        }
         _spriteRenderer.flipX = _rb.velocity.x < 0;            
     }
 
     private void Move()
     {
+        if (_healthManager.IsDead)
+            return;
         if (!(Vector2.Distance(transform.position, _target.position) > 1.4)) return;
         _direction = _target.position - transform.position;
         _rb.AddForce(_direction.normalized * _speed * 10);        

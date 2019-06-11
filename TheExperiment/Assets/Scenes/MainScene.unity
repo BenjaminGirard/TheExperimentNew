@@ -246,6 +246,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
+        type: 3}
+      propertyPath: m_Name
+      value: Crossbow
+      objectReference: {fileID: 0}
     - target: {fileID: 6476429701867859734, guid: e1f62c30ea462624295b205a57b3b4bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -366,11 +371,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
-        type: 3}
-      propertyPath: m_Name
-      value: Crossbow
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f62c30ea462624295b205a57b3b4bb, type: 3}
@@ -812,6 +812,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
+        type: 3}
+      propertyPath: m_Name
+      value: ShotGun
+      objectReference: {fileID: 0}
     - target: {fileID: 6476429701867859734, guid: e1f62c30ea462624295b205a57b3b4bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -922,11 +927,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.052
-      objectReference: {fileID: 0}
-    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
-        type: 3}
-      propertyPath: m_Name
-      value: ShotGun
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f62c30ea462624295b205a57b3b4bb, type: 3}
@@ -1337,7 +1337,7 @@ PrefabInstance:
     - target: {fileID: 224814907299455808, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000014036627
+      value: -0.00000038112236
       objectReference: {fileID: 0}
     - target: {fileID: 224301010969799016, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -1347,7 +1347,7 @@ PrefabInstance:
     - target: {fileID: 224765271446289128, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000029295416
+      value: 0.000014877665
       objectReference: {fileID: 0}
     - target: {fileID: 224668587628782912, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -1426,6 +1426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
+        type: 3}
+      propertyPath: m_Name
+      value: AK47
       objectReference: {fileID: 0}
     - target: {fileID: 6476429701867859734, guid: e1f62c30ea462624295b205a57b3b4bb,
         type: 3}
@@ -1538,11 +1543,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.052
       objectReference: {fileID: 0}
-    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
-        type: 3}
-      propertyPath: m_Name
-      value: AK47
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f62c30ea462624295b205a57b3b4bb, type: 3}
 --- !u!1001 &1530266186
@@ -1566,6 +1566,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
+        type: 3}
+      propertyPath: m_Name
+      value: Minigun
       objectReference: {fileID: 0}
     - target: {fileID: 6476429701867859734, guid: e1f62c30ea462624295b205a57b3b4bb,
         type: 3}
@@ -1688,11 +1693,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.008
       objectReference: {fileID: 0}
-    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
-        type: 3}
-      propertyPath: m_Name
-      value: Minigun
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f62c30ea462624295b205a57b3b4bb, type: 3}
 --- !u!1 &1530266187 stripped
@@ -1741,6 +1741,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
+        type: 3}
+      propertyPath: m_Name
+      value: Canon
       objectReference: {fileID: 0}
     - target: {fileID: 6476429701867859734, guid: e1f62c30ea462624295b205a57b3b4bb,
         type: 3}
@@ -1862,11 +1867,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.002
-      objectReference: {fileID: 0}
-    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
-        type: 3}
-      propertyPath: m_Name
-      value: Canon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f62c30ea462624295b205a57b3b4bb, type: 3}
@@ -2225,6 +2225,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
+        type: 3}
+      propertyPath: m_Name
+      value: Sniper
+      objectReference: {fileID: 0}
     - target: {fileID: 6476429701867859734, guid: e1f62c30ea462624295b205a57b3b4bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2345,11 +2350,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.004
-      objectReference: {fileID: 0}
-    - target: {fileID: 6476429703518129133, guid: e1f62c30ea462624295b205a57b3b4bb,
-        type: 3}
-      propertyPath: m_Name
-      value: Sniper
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f62c30ea462624295b205a57b3b4bb, type: 3}

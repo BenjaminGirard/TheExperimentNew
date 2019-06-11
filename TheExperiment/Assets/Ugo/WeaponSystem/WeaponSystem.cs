@@ -13,7 +13,7 @@ public class WeaponSystem : MonoBehaviour
     public bool isWeaponEquiped = false;
     
     [HideInInspector]
-    public ItemData WeaponEquiped;
+    public GameObject WeaponEquiped;
 
     private Animator anim;
 
@@ -50,8 +50,14 @@ public class WeaponSystem : MonoBehaviour
 
     public void EquipItem(ItemData weapon)
     {
+        if (isWeaponEquiped)
+        {
+            WeaponEquiped.SetActive(false);
+        }
+
         isWeaponEquiped = true;
-        WeaponEquiped = weapon;
+        WeaponEquiped = weapon.item.m_object;
+        WeaponEquiped.SetActive(true);
     } 
    
 }
