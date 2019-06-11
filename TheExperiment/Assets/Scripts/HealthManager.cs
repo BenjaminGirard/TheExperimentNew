@@ -8,7 +8,8 @@ public class HealthManager : MonoBehaviour
 {
     private Animator _animator;
     private bool _isDead;
-    private float _currentHealth;
+    [SerializeField]
+    private float _currentHealth = 100;
     [SerializeField]
 
     private HealthBar _healthBar;
@@ -25,7 +26,7 @@ public class HealthManager : MonoBehaviour
     {
         _animator = GetComponentInChildren<Animator>();
         _healthBar = GetComponentInChildren<HealthBar>();
-        _currentHealth = gameObject.CompareTag("Player") ? PlayerInventoryManager.FindPlayerAttributeMaxValueByName("Health") : 100;
+        _currentHealth = gameObject.CompareTag("Player") ? PlayerInventoryManager.FindPlayerAttributeMaxValueByName("Health") : _currentHealth;
         _maxHealth = _currentHealth;
         _isDead = false;
     }
@@ -49,6 +50,7 @@ public class HealthManager : MonoBehaviour
     {
         if (_currentHealth <= 0)
         {
+            Debug.Log("DEAD");
             _animator.SetBool("isDead", true);
             _isDead = true;
             if (GameObject.FindGameObjectsWithTag("Enemy").Length == 1)

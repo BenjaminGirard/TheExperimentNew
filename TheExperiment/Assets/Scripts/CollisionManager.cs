@@ -30,12 +30,13 @@ public class CollisionManager : MonoBehaviour
             _collisionDirection = (Vector2)transform.position - other.GetContact(0).point;
             _rigidbody2D.AddForce(_collisionDirection * _bumpForce, ForceMode2D.Impulse);
         }
-        _healthManager.TakeDamage(other.gameObject.GetComponent<DamageDealer>().Damage);
+        if (other.gameObject.GetComponent<DamageDealer>() != null)
+            _healthManager.TakeDamage(other.gameObject.GetComponent<DamageDealer>().Damage);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.gameObject.CompareTag("DamageDealer") || (_isEnemy && other.gameObject.CompareTag("Enemy")) || CompareTag("Player") )
+        if (_isEnemy)
             return;
         _healthManager.TakeDamage(other.gameObject.GetComponent<DamageDealer>().Damage);        
     }
