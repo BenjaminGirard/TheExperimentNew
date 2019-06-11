@@ -39,7 +39,7 @@ public class ProjectileController : MonoBehaviour
         {
             shotCounter = 0;
         }
-
+        
 
     }
 }

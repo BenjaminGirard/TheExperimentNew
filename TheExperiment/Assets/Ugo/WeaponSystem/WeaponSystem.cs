@@ -15,9 +15,12 @@ public class WeaponSystem : MonoBehaviour
     [HideInInspector]
     public ItemData WeaponEquiped;
 
+    private Animator anim;
+
 
     void Start()
     {
+        anim = GetComponentInChildren<Animator>();
         mainCamera = FindObjectOfType<Camera>();
         //projectile = GameObject.FindGameObjectWithTag("ClassicProjectile");
     }
@@ -34,12 +37,14 @@ public class WeaponSystem : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             pController.isFiring = true;
+            anim.SetBool("IsFiring", true);
         }
         else if (Input.GetMouseButtonUp(0))
         {
+            anim.SetBool("IsFiring", false);
             pController.isFiring = false;
         }
-
+        
 
     }
 
