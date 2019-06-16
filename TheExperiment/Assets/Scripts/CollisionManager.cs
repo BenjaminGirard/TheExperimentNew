@@ -13,6 +13,10 @@ public class CollisionManager : MonoBehaviour
     private HealthManager _healthManager;
     private Rigidbody2D _rigidbody2D;
     private Vector2 _collisionDirection;
+
+    private DamageDealer _dmgOther;
+    private DamageDealer _dmgCur;
+
     
     // Start is called before the first frame update
     void Start()
@@ -36,9 +40,9 @@ public class CollisionManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (transform.gameObject.GetComponent<DamageDealer>()._isLaunchByPlayer && other.gameObject.CompareTag("Player") || 
-            !other.gameObject.GetComponent<DamageDealer>()._isLaunchByPlayer && other.gameObject.CompareTag("Enemy"))
+        _dmgOther = other.gameObject.GetComponent<DamageDealer>();
+        if (_dmgOther == null || !_dmgOther._isLaunchByPlayer && other.gameObject.CompareTag("Enemy"))
             return;
-        _healthManager.TakeDamage(other.gameObject.GetComponent<DamageDealer>().Damage);        
+        _healthManager.TakeDamage(_dmgOther.Damage);        
     }
 }
