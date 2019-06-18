@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a387c30a47e70bf4c83694a1d7c32259, type: 3}
   m_Name: Rifle
   m_EditorClassIdentifier: 
-  bluePrintName: Rifle
+  bluePrintName: Ak 47
   category: {fileID: 11400000, guid: 0ab766da35b7b0f4d9816f43c732794f, type: 2}
   icon: {fileID: 21300000, guid: fb458c608e0948b4e8bc8a925e714ea8, type: 3}
   targetItem: {fileID: 11400000, guid: 54f3f70a8af7fbf42802cda929266eae, type: 2}

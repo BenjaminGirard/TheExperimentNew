@@ -10,22 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a387c30a47e70bf4c83694a1d7c32259, type: 3}
-  m_Name: Crossbow
+  m_Name: Minigun
   m_EditorClassIdentifier: 
-  bluePrintName: Crossbow
+  bluePrintName: Minigun
   category: {fileID: 11400000, guid: 0ab766da35b7b0f4d9816f43c732794f, type: 2}
-  icon: {fileID: 21300000, guid: f1296b7928cce7e48b6c7ab0c143ad01, type: 3}
-  targetItem: {fileID: 11400000, guid: 54f3f70a8af7fbf42802cda929266eae, type: 2}
+  icon: {fileID: 21300000, guid: 7b294bb3c41c16b4c8ad6c76706abec0, type: 3}
+  targetItem: {fileID: 11400000, guid: 15fddd1bcbadc2a4892cd6765300c794, type: 2}
   craftingAmount: 1
   ingredients:
   - ingredient: {fileID: 11400000, guid: 66886766f52759546b2b84a72779b251, type: 2}
-    amount: 2
-  - ingredient: {fileID: 11400000, guid: 999dda36a34ae432f8c700ae3d193d41, type: 2}
     amount: 5
-  - ingredient: {fileID: 11400000, guid: fcb40963463fc467d8aa937884c64a32, type: 2}
-    amount: 1
-  - ingredient: {fileID: 11400000, guid: 22b60c11f2e41479ebc65ecf2b93970a, type: 2}
+  - ingredient: {fileID: 11400000, guid: 999dda36a34ae432f8c700ae3d193d41, type: 2}
+    amount: 10
+  - ingredient: {fileID: 11400000, guid: d6fd98d6599714c1da489ec095130b61, type: 2}
     amount: 3
+  - ingredient: {fileID: 11400000, guid: f5501bef2f2f24f9782d5e45c13f86be, type: 2}
+    amount: 3
+  - ingredient: {fileID: 11400000, guid: 469ceea45313c49a7bffeadf8cf5e00a, type: 2}
+    amount: 1
   craftingPrices: []
   successChance: 1
   craftingTime: 3
