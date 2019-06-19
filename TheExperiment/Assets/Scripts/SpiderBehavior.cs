@@ -43,7 +43,7 @@ public class SpiderBehavior : MonoBehaviour
             _rb.angularVelocity = 0;
             return;
         }
-        _spriteRenderer.flipX = _rb.velocity.x < 0;            
+        _spriteRenderer.flipX = transform.position.x - _target.position.x > 0;
     }
 
     private void Move()
