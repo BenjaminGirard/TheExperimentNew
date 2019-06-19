@@ -21,11 +21,11 @@ MonoBehaviour:
   - ingredient: {fileID: 11400000, guid: 66886766f52759546b2b84a72779b251, type: 2}
     amount: 1
   - ingredient: {fileID: 11400000, guid: 999dda36a34ae432f8c700ae3d193d41, type: 2}
-    amount: 3
+    amount: 1
   - ingredient: {fileID: 11400000, guid: fcb40963463fc467d8aa937884c64a32, type: 2}
     amount: 1
   - ingredient: {fileID: 11400000, guid: 22b60c11f2e41479ebc65ecf2b93970a, type: 2}
-    amount: 3
+    amount: 1
   craftingPrices: []
   successChance: 1
   craftingTime: 3

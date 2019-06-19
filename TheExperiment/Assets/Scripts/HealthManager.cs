@@ -57,6 +57,7 @@ public class HealthManager : MonoBehaviour
         }
         else if (_isDead && _currentHealth > 0)
         {
+            //GetComponent<BoxCollider2D>().enabled = false;
             _animator.SetBool("isDead", false);
             _isDead = false;
         }

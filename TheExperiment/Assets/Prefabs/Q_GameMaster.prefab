@@ -57,6 +57,7 @@ MonoBehaviour:
   cds: []
   craftingSpawningPosition: {fileID: 0}
   spawnOffset: {x: 0, y: 0, z: 0}
+  craftingBluePrints: []
 --- !u!114 &114529258065240630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1373,7 +1374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000004607956}
+  m_AnchoredPosition: {x: 0, y: 0.0000152074335}
   m_SizeDelta: {x: 400, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &114987265603838506
@@ -1768,7 +1769,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000027251075}
+  m_AnchoredPosition: {x: 0, y: -0.000030517578}
   m_SizeDelta: {x: 400, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &114218011515350768
@@ -3699,7 +3700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0000008834519}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 400, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &114799020938590924
@@ -4251,7 +4252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000018868308}
+  m_AnchoredPosition: {x: 0, y: 0.000030466223}
   m_SizeDelta: {x: 400, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &114235430826563160
@@ -4874,13 +4875,13 @@ MonoBehaviour:
   - itemsToAdd: {fileID: 11400000, guid: db9a8871c144570419dfcf22658ee2d8, type: 2}
     amount: 10
     chance: 0.7
-  - itemsToAdd: {fileID: 11400000, guid: b60f3fa2cdb34634a82e4796d2727201, type: 2}
+  - itemsToAdd: {fileID: 0}
     amount: 4
     chance: 0.5
-  - itemsToAdd: {fileID: 11400000, guid: 54775833ad541534cad7ca7476ed371b, type: 2}
+  - itemsToAdd: {fileID: 0}
     amount: 1
     chance: 0.3
-  - itemsToAdd: {fileID: 11400000, guid: f5cc84d0d5a5dd246807c91ea93d8109, type: 2}
+  - itemsToAdd: {fileID: 0}
     amount: 1
     chance: 1
   - itemsToAdd: {fileID: 11400000, guid: 0c0f917058f14974ca223f50b35b6380, type: 2}
@@ -6462,7 +6463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000019069535}
+  m_AnchoredPosition: {x: 0, y: 0.000015258789}
   m_SizeDelta: {x: 400, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &114207071186622876
@@ -8158,7 +8159,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114088721106822592}
   m_HandleRect: {fileID: 224844879533587644}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -10410,7 +10411,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114720269764653150}
   m_HandleRect: {fileID: 224295845861705768}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rifle Body
   m_EditorClassIdentifier: 
   itemName: Rifle Body
-  ID: 15
+  ID: 34
   icon: {fileID: 21300000, guid: df7ec7e61275c44b8b413395d8b5aadc, type: 3}
   m_object: {fileID: 3379520617899917612, guid: 02bafc16d777645b7a16e80a02b8c69f,
     type: 3}

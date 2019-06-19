@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4656295397860587783}
   - component: {fileID: 761636824109244488}
   m_Layer: 0
-  m_Name: MinotaurGeoPortalSpawner
+  m_Name: CyclopGeoPortalSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,6 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileMap: {fileID: 0}
   _items:
-  - {fileID: 8138863184374185881, guid: c66b2670c0e9aa74190edbcd627031d1, type: 3}
+  - {fileID: 8138863184374185881, guid: de2100b9ce6c17044b6edde31a8bdee5, type: 3}
   _itemsNumber: 01000000
   probability: 100
