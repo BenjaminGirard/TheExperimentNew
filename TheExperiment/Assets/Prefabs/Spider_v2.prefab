@@ -443,6 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36448310184951749898db9773d496e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentHealth: 100
   _healthBar: {fileID: 3530956540503927424}
 --- !u!114 &3530956542401377092
 MonoBehaviour:
@@ -470,6 +471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f55e1cced26e7c43b1a62f54352e5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isLaunchByPlayer: 0
   _damage: 10
 --- !u!114 &3530956542401377098
 MonoBehaviour:

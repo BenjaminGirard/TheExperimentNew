@@ -154,4 +154,4 @@ MonoBehaviour:
   Spawn: 1
   spawnType: 3
   waveTimer: 1
-  totalWaves: 3
+  totalWaves: 6

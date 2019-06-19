@@ -9,7 +9,7 @@ public class HealthManager : MonoBehaviour
     private Animator _animator;
     private bool _isDead;
     [SerializeField]
-    private float _currentHealth = 100;
+    private float _currentHealth;
     [SerializeField]
 
     private HealthBar _healthBar;
@@ -43,7 +43,8 @@ public class HealthManager : MonoBehaviour
         _currentHealth = _currentHealth - damage <= 0 ? 0 : _currentHealth - damage;
         if (gameObject.CompareTag("Player")) PlayerInventoryManager.SetPlayerAttributeByName("Health", _currentHealth, SetType.CurrentValue);
         _healthBar.SubFillBar(damage / _maxHealth * 100);
-        _animator.Play("TakeDamage");
+        if (gameObject.CompareTag("Player"))
+            _animator.Play("TakeDamage");
     }
 
     private void CheckStatus()

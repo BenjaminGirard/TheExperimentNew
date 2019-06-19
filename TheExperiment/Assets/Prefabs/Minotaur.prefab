@@ -1,17 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &4575405651079054686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5743978643807778272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8360e69bc16c33e4ea90a2eff5b9b4e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4575405651267201191
 GameObject:
   m_ObjectHideFlags: 0
@@ -26,6 +14,7 @@ GameObject:
   - component: {fileID: 4575405651267201193}
   - component: {fileID: 4575405651267201192}
   - component: {fileID: 4575405651267201197}
+  - component: {fileID: 3460336040796783027}
   m_Layer: 0
   m_Name: Minotaur
   m_TagString: Enemy
@@ -129,6 +118,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
+--- !u!114 &3460336040796783027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4575405651267201191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 210db8a8e48b5f24c887be3ee1c45e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3379520617899917612, guid: 658c80073b89848118e084851e177522, type: 3}
+  probability: 100
 --- !u!1 &4575405651381890255
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f55e1cced26e7c43b1a62f54352e5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isLaunchByPlayer: 0
   _damage: 40
 --- !u!61 &4575405651381890257
 BoxCollider2D:
@@ -244,6 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f55e1cced26e7c43b1a62f54352e5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isLaunchByPlayer: 0
   _damage: 40
 --- !u!61 &4575405651972826121
 BoxCollider2D:
@@ -271,6 +276,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8162339, y: 1.68606}
   m_EdgeRadius: 0
+--- !u!114 &4575405651079054686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5743978643807778272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8360e69bc16c33e4ea90a2eff5b9b4e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4575405650746628164
 PrefabInstance:
   m_ObjectHideFlags: 0

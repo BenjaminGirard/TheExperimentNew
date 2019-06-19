@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 8138863184158796171}
   - component: {fileID: 8138863184374185886}
   m_Layer: 0
-  m_Name: Spider_demon
+  m_Name: Portal_spider
   m_TagString: Portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,4 +154,4 @@ MonoBehaviour:
   Spawn: 1
   spawnType: 3
   waveTimer: 1
-  totalWaves: 3
+  totalWaves: 6

@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 8792754626427652745}
   - component: {fileID: 8792754626427652746}
   - component: {fileID: 8792754626427652747}
+  - component: {fileID: 5721803288618407440}
   m_Layer: 0
   m_Name: Cyclop
   m_TagString: Enemy
@@ -131,6 +132,20 @@ MonoBehaviour:
   _rockPrefab: {fileID: 6931618048403037383, guid: 3dff98aef05f7d44b856ce86e32b2030,
     type: 3}
   _rockPos: {fileID: 8792754626598351231}
+--- !u!114 &5721803288618407440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792754626427652756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 210db8a8e48b5f24c887be3ee1c45e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3379520617899917612, guid: 2e64ae264d3084423a8dc277f999ad7a, type: 3}
+  probability: 50
 --- !u!1 &8792754626598351224
 GameObject:
   m_ObjectHideFlags: 0
