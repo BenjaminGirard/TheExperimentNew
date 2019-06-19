@@ -53,12 +53,12 @@ public class WeaponSystem : MonoBehaviour
         rot.x = transform.rotation.x;
         if (mousePosition.x < transform.root.position.x)
         {
-            transform.position = new Vector3(initialPos.x + -0.5F, initialPos.y, initialPos.z);
+            transform.position = new Vector3(transform.root.position.x + -0.3F, transform.position.y, transform.position.z);
             transform.localScale = invertScale;
         }
         else
         {
-            transform.position = new Vector3(initialPos.x, initialPos.y, initialPos.z);
+            transform.position = new Vector3(transform.root.position.x + 0.3F, transform.position.y, transform.position.z);
             transform.localScale = initialScale;
         }
         rot.y = 0;

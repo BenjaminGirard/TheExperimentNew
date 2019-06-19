@@ -15,6 +15,6 @@ public class DeathManager : MonoBehaviour
     void Update()
     {
         if (GetComponent<HealthManager>().IsDead)
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
     }
 }

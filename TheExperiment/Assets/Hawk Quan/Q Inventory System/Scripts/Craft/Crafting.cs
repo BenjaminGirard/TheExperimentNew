@@ -60,7 +60,7 @@ namespace QInventory
 
         public ItemData AddItem(CraftingBluePrint craftingBluePrint)
         {
-            print(craftingBluePrint);
+            print(craftingBluePrint.targetItem.ID);
             Item newItem = Q_GameMaster.Instance.inventoryManager.itemDataBase.getItemByID(craftingBluePrint.targetItem.ID);
             
             for (int i = 0; i < items.Count; i++)
