@@ -8,12 +8,15 @@ public class WeaponSystem : MonoBehaviour
     private Camera mainCamera;
     public GameObject projectile;
     public ProjectileController pController;
-    
-    [HideInInspector]
-    public bool isWeaponEquiped = false;
-    
-    [HideInInspector]
-    public GameObject WeaponEquiped;
+    public double fireRate = 1F;
+    private double lastShot = 0.0F;
+
+
+    //  [HideInInspector]
+    ///  public bool isWeaponEquiped = false;
+
+    //  [HideInInspector]
+    //  public GameObject WeaponEquiped;
 
     private Animator anim;
 
@@ -28,36 +31,48 @@ public class WeaponSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+//        transform.rotation = new Quaternion(transform.rotation.x, 0, transform.rotation.z, transform.rotation.w);
+
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1000f));
+
+
+
+
         Quaternion rot = Quaternion.LookRotation(transform.position - mousePosition, Vector3.forward);
+    //    print(rot);
+
         rot.x = transform.rotation.x;
-        rot.y = transform.rotation.y;
+      //  if (mousePosition.x < transform.position.x)
+       // {
+            //transform.position = new Vector3(-0.054f, transform.position.y, transform.position.z);
+         //   rot.y = -180f;
+       // }
+        //else
+            rot.y = 0;
+
         transform.rotation = rot;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0) && Time.time > fireRate + lastShot)
         {
+            lastShot = Time.time;
             pController.isFiring = true;
             anim.SetBool("IsFiring", true);
         }
-        else if (Input.GetMouseButtonUp(0))
+        else if (Input.GetMouseButtonUp(0)) 
         {
             anim.SetBool("IsFiring", false);
             pController.isFiring = false;
         }
-        
+        else 
+        {
+            anim.SetBool("IsFiring", false);
+            pController.isFiring = false;
+        }
+
+
 
     }
 
-    public void EquipItem(ItemData weapon)
-    {
-        if (isWeaponEquiped)
-        {
-            WeaponEquiped.SetActive(false);
-        }
-
-        isWeaponEquiped = true;
-        WeaponEquiped = weapon.item.m_object;
-        WeaponEquiped.SetActive(true);
-    } 
+   
    
 }

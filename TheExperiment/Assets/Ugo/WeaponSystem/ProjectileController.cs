@@ -10,10 +10,7 @@ public class ProjectileController : MonoBehaviour
     public Bullet bullet;
     public float bulletSpeed;
 
-    public float timeBetweenShots;
-    private float shotCounter;
-
-    public Transform firePoint;
+   
 
     void Start()
     {
@@ -26,19 +23,13 @@ public class ProjectileController : MonoBehaviour
         
         if (/*GetComponentInParent<WeaponSystem>().isWeaponEquiped &&*/ isFiring)
         {
-            shotCounter -= Time.deltaTime;
-            if (shotCounter <= 0)
-            {
-                shotCounter = timeBetweenShots;
-                Bullet newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation);
+            
+                Bullet newBullet = Instantiate(bullet, this.transform.position, this.transform.rotation);
                 newBullet.gameObject.SetActive(true);
                 newBullet.speed = bulletSpeed;
-            }
+            
         }
-        else
-        {
-            shotCounter = 0;
-        }
+        
         
 
     }
