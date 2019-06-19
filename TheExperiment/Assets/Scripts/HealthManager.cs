@@ -50,7 +50,6 @@ public class HealthManager : MonoBehaviour
     {
         if (_currentHealth <= 0)
         {
-            _animator.SetBool("isIdle", true);
             _animator.SetBool("isDead", true);
             _isDead = true;
             if (GameObject.FindGameObjectsWithTag("Enemy").Length == 1)
