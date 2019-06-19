@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Minigun
   ID: 16
   icon: {fileID: 21300000, guid: 7b294bb3c41c16b4c8ad6c76706abec0, type: 3}
-  m_object: {fileID: 7405146382506720597, guid: a3f2031eb136449499176c0bd9f29f95,
+  m_object: {fileID: 6752452909292729752, guid: ed95d9645e8523e4bb8884f587b8b3ae,
     type: 3}
   isStackable: 0
   maxStackNumber: 1
@@ -32,7 +32,7 @@ MonoBehaviour:
   useOnPickUp: 0
   CDAllThisWhenUse: 0
   CDAllConsumbleWhenUse: 0
-  equipmentPart: 1
+  equipmentPart: 2
   equipmentItemAttributes:
   - equipmentItemAttribute: {fileID: 11400000, guid: ff31e49a58bd0214da32d49f7e3a2891,
       type: 2}

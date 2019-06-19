@@ -9,8 +9,11 @@ public class ItemsSpawner : MonoBehaviour
     public List<GameObject> _items;
     public List<int> _itemsNumber;
 
+    
     List<Vector3> availablePlaces;
 
+
+    public int probability = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +48,8 @@ public class ItemsSpawner : MonoBehaviour
         {
             for (index = 0; index < _itemsNumber[i]; index++)
             {
+                if (!(Random.Range(0, 100) < probability))
+                    continue;
                 rnd = (int)Random.Range(0f, availablePlaces.Count);
                 GameObject go = (GameObject)Instantiate(_items[i]);
                 go.transform.position = availablePlaces[rnd];

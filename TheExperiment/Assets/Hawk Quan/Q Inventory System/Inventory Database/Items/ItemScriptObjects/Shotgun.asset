@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Shotgun
   ID: 17
   icon: {fileID: 21300000, guid: f72cda7efaefc544fb398be3a04742b3, type: 3}
-  m_object: {fileID: 7405146382506720597, guid: 10e955bebdc572c4d88bf022943b45b5,
+  m_object: {fileID: 5789165969959614013, guid: 340370c0e62d33e4baf6a91b3a1565d6,
     type: 3}
   isStackable: 0
   maxStackNumber: 1
@@ -32,7 +32,7 @@ MonoBehaviour:
   useOnPickUp: 0
   CDAllThisWhenUse: 0
   CDAllConsumbleWhenUse: 0
-  equipmentPart: 1
+  equipmentPart: 2
   equipmentItemAttributes:
   - equipmentItemAttribute: {fileID: 11400000, guid: ff31e49a58bd0214da32d49f7e3a2891,
       type: 2}

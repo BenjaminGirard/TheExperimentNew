@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bluePrintName: Ak 47
   category: {fileID: 11400000, guid: 0ab766da35b7b0f4d9816f43c732794f, type: 2}
-  icon: {fileID: 21300000, guid: fb458c608e0948b4e8bc8a925e714ea8, type: 3}
-  targetItem: {fileID: 11400000, guid: 54f3f70a8af7fbf42802cda929266eae, type: 2}
+  icon: {fileID: 21300000, guid: 00893fcf26fd6794da6eb4a53e122099, type: 3}
+  targetItem: {fileID: 11400000, guid: 3a0ae82c1940a8b4b99281a8b75c7e56, type: 2}
   craftingAmount: 1
   ingredients:
   - ingredient: {fileID: 11400000, guid: 4b98e59574dfc4775b64d425b758ce17, type: 2}
