@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -215,7 +215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &309584805
 Transform:
   m_ObjectHideFlags: 0
@@ -714,7 +714,7 @@ PrefabInstance:
     - target: {fileID: 114629996654141658, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: craftingBluePrints.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114629996654141658, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -901,7 +901,7 @@ PrefabInstance:
     - target: {fileID: 224814907299455808, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0000143468205
+      value: -0.000015520553
       objectReference: {fileID: 0}
     - target: {fileID: 224301010969799016, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -911,7 +911,7 @@ PrefabInstance:
     - target: {fileID: 224765271446289128, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000029605611
+      value: -0.00000026176517
       objectReference: {fileID: 0}
     - target: {fileID: 224668587628782912, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -1511,6 +1511,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: marine_hand_Crossbow
       objectReference: {fileID: 0}
+    - target: {fileID: 106903742517136594, guid: 24f82236110f2994fbc6db2845d9f2a9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 106903742517136597, guid: 24f82236110f2994fbc6db2845d9f2a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1778,6 +1783,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3401394549757848480, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+        type: 3}
+      propertyPath: probability
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401394549757848480, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+        type: 3}
+      propertyPath: _items.Array.data[0]
+      value: 
+      objectReference: {fileID: 3379520617899917612, guid: 4558457f9aeb1465099def873a3c12a4,
+        type: 3}
+    - target: {fileID: 3401394549757848480, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+        type: 3}
+      propertyPath: _itemsNumber.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493103127089966586, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+        type: 3}
+      propertyPath: probability
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386098565171625012, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+        type: 3}
+      propertyPath: probability
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386098565171625012, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+        type: 3}
+      propertyPath: _itemsNumber.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2548903566116423402, guid: 593c9295fc41a46ec8dd04115e24e2c9,
+        type: 3}
+      propertyPath: probability
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593c9295fc41a46ec8dd04115e24e2c9, type: 3}
 --- !u!1001 &3079067919654847449
@@ -1860,6 +1901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: marine_hand_AK47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360719968944240620, guid: 6eb2d604a4abd3447be7690d1bcfe6ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3360719968944240621, guid: 6eb2d604a4abd3447be7690d1bcfe6ac,
         type: 3}
@@ -2522,6 +2568,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: marine_hand_Minigun
       objectReference: {fileID: 0}
+    - target: {fileID: 6752452909292729752, guid: ed95d9645e8523e4bb8884f587b8b3ae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6752452909292729755, guid: ed95d9645e8523e4bb8884f587b8b3ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2590,6 +2641,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: marine_hand_Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597879150644397795, guid: 134913531b980f442b33223ba5b587a5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7597879150644397792, guid: 134913531b980f442b33223ba5b587a5,
         type: 3}

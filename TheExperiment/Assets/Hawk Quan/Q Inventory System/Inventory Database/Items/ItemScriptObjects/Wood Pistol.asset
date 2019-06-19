@@ -15,11 +15,11 @@ MonoBehaviour:
   itemName: Wood Pistol
   ID: 10
   icon: {fileID: 21300000, guid: 1d1cf42686c324c23905dc8d8ecadea2, type: 3}
-  m_object: {fileID: 4522332518914156420, guid: 134913531b980f442b33223ba5b587a5,
+  m_object: {fileID: 7597879150644397795, guid: 134913531b980f442b33223ba5b587a5,
     type: 3}
   isStackable: 0
   maxStackNumber: 1
-  description: sharp
+  description: Baic weapon
   variety: 1
   rarity: 2
   buy_Price: []

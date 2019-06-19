@@ -36,14 +36,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e4b3c5835d18ac94697e4dbdcc28a824, type: 2}
   - {fileID: 11400000, guid: ff31e49a58bd0214da32d49f7e3a2891, type: 2}
   bluePrints:
-  - {fileID: 11400000, guid: 8998a66d78dc85b46bbae8d202005f18, type: 2}
   - {fileID: 11400000, guid: 2428716b25c7846469cab197e42a0cd4, type: 2}
-  - {fileID: 11400000, guid: 0e25348a60f40db438d3ef425dc671b1, type: 2}
-  - {fileID: 11400000, guid: 170259c32789e411287e5c455d7c2391, type: 2}
-  - {fileID: 11400000, guid: e21333d0bd43fff488c68dacd555e31f, type: 2}
-  - {fileID: 11400000, guid: c755f8686678e6249b268c09113067e1, type: 2}
-  - {fileID: 11400000, guid: f3542beea5bc812408df6b71f75b4f77, type: 2}
   - {fileID: 11400000, guid: dd253c4e8f78d1743816842aeb6b50a1, type: 2}
+  - {fileID: 11400000, guid: f3542beea5bc812408df6b71f75b4f77, type: 2}
+  - {fileID: 11400000, guid: c755f8686678e6249b268c09113067e1, type: 2}
+  - {fileID: 11400000, guid: e21333d0bd43fff488c68dacd555e31f, type: 2}
   - {fileID: 11400000, guid: 28fd07ab59097114ea03d392a87f335c, type: 2}
   categories:
   - {fileID: 11400000, guid: 2c6e5c58edc019b489e109165996a5b3, type: 2}

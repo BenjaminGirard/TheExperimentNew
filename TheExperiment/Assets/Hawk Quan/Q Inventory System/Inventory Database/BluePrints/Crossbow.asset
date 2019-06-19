@@ -15,13 +15,13 @@ MonoBehaviour:
   bluePrintName: Crossbow
   category: {fileID: 11400000, guid: 0ab766da35b7b0f4d9816f43c732794f, type: 2}
   icon: {fileID: 21300000, guid: f1296b7928cce7e48b6c7ab0c143ad01, type: 3}
-  targetItem: {fileID: 11400000, guid: 54f3f70a8af7fbf42802cda929266eae, type: 2}
+  targetItem: {fileID: 11400000, guid: 5bff4532d48fe82449234f22101b7f6c, type: 2}
   craftingAmount: 1
   ingredients:
   - ingredient: {fileID: 11400000, guid: 66886766f52759546b2b84a72779b251, type: 2}
-    amount: 2
+    amount: 1
   - ingredient: {fileID: 11400000, guid: 999dda36a34ae432f8c700ae3d193d41, type: 2}
-    amount: 5
+    amount: 3
   - ingredient: {fileID: 11400000, guid: fcb40963463fc467d8aa937884c64a32, type: 2}
     amount: 1
   - ingredient: {fileID: 11400000, guid: 22b60c11f2e41479ebc65ecf2b93970a, type: 2}

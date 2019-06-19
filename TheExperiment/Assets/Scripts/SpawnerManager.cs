@@ -67,7 +67,8 @@ public class SpawnerManager : MonoBehaviour
                 Status = SpawnStatus.WAIT;
                 int _difficultyCountDown = DifficultyIdx;
                 
-                SpawnPickables();
+                if (DifficultyIdx != 1)
+                    SpawnPickables();
                 
                 while (_difficultyCountDown > 0)
                 {
@@ -97,7 +98,6 @@ public class SpawnerManager : MonoBehaviour
                         }
                     } else
                     {
-                        Debug.Log("Instantiating");
                         var child = Instantiate(EasyPortals[Random.Range(0, EasyPortals.Count)], transform);
                         child.SetActive(true);
                         _difficultyCountDown -= _easyRate;
