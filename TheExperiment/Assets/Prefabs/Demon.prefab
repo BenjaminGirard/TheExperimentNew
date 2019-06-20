@@ -209,6 +209,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5141863624006078801}
     m_Modifications:
+    - target: {fileID: 6866373388702071392, guid: 8182f0adac27e49f1b885e838a346fcc,
+        type: 3}
+      propertyPath: m_Name
+      value: Demon_Idle
+      objectReference: {fileID: 0}
     - target: {fileID: 6866373388702071397, guid: 8182f0adac27e49f1b885e838a346fcc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -274,15 +279,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6.468
       objectReference: {fileID: 0}
-    - target: {fileID: 6866373388702071392, guid: 8182f0adac27e49f1b885e838a346fcc,
-        type: 3}
-      propertyPath: m_Name
-      value: Demon_Idle
-      objectReference: {fileID: 0}
     - target: {fileID: 6866373388702071398, guid: 8182f0adac27e49f1b885e838a346fcc,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8182f0adac27e49f1b885e838a346fcc, type: 3}
