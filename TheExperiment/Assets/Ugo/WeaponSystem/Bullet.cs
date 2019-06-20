@@ -7,12 +7,13 @@ public class Bullet : MonoBehaviour
     public float speed = 100f;
     private Vector3 v;
     float destroyTime = 5;
+    public bool isShotGun = false;
 
 
 
     void Start()
     {
-        Destroy(gameObject, destroyTime);
+        Destroy(gameObject, isShotGun ? 1 : destroyTime);
     }
 
     // Update is called once per frame

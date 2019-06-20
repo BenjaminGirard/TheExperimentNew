@@ -7,6 +7,7 @@ public class WeaponSystem : MonoBehaviour
 {
     private Camera mainCamera;
     public GameObject projectile;
+    public bool isShotGun = false;
     public ProjectileController pController;
     public double fireRate = 1F;
     private double lastShot = 0.0F;
@@ -28,6 +29,8 @@ public class WeaponSystem : MonoBehaviour
 
     void Start()
     {
+        if (isShotGun)
+            pController.isShotGun = true;
         initialPos = this.transform.position;
         initialScale = this.transform.localScale;
         invertScale = initialScale;

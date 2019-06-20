@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 5789165971540227874}
+  isShotGun: 1
   pController: {fileID: 5789165971540227872}
   fireRate: 0.7
 --- !u!1 &5789165971540227874
@@ -140,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFiring: 0
+  isShotGun: 0
   bullet: {fileID: 3082292521103682680, guid: 35fe829a592167940b8226d34b3e51cc, type: 3}
   bulletSpeed: 10
 --- !u!1 &5789165971682995755
