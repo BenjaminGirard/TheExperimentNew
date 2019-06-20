@@ -95,6 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  isShotGun: 0
 --- !u!114 &773463062567872679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,7 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isLaunchByPlayer: 1
-  _damage: 50
+  _damage: 300
 --- !u!61 &6161139741170911231
 BoxCollider2D:
   m_ObjectHideFlags: 0

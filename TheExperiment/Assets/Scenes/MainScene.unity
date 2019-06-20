@@ -339,7 +339,7 @@ PrefabInstance:
         type: 3}
       propertyPath: tileMap
       value: 
-      objectReference: {fileID: 1574906137}
+      objectReference: {fileID: 1828180312}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e35dfb1263b3e044a7300952656f1a9, type: 3}
 --- !u!1 &398247302
@@ -1119,7 +1119,7 @@ PrefabInstance:
     - target: {fileID: 224814907299455808, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00003167973
+      value: -0.000014163997
       objectReference: {fileID: 0}
     - target: {fileID: 224301010969799016, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -1129,7 +1129,7 @@ PrefabInstance:
     - target: {fileID: 224765271446289128, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000016420936
+      value: 0.000001094793
       objectReference: {fileID: 0}
     - target: {fileID: 224668587628782912, guid: eb8fa11bc5577af4eb790cc46ac25628,
         type: 3}
@@ -1793,7 +1793,7 @@ PrefabInstance:
         type: 3}
       propertyPath: tileMap
       value: 
-      objectReference: {fileID: 1828180312}
+      objectReference: {fileID: 1574906137}
     - target: {fileID: 761636824109244488, guid: 6aa2980d5741c0840b5201929421fc8f,
         type: 3}
       propertyPath: _items.Array.data[0]
@@ -2990,6 +2990,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: marine_hand_Sniper
+      objectReference: {fileID: 0}
+    - target: {fileID: 115419272281822452, guid: cc94ea5e89997ee4ab86de2534174981,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 115419272281822449, guid: cc94ea5e89997ee4ab86de2534174981,
         type: 3}

@@ -47,11 +47,11 @@ public class ProjectileController : MonoBehaviour
                 newBullet4.gameObject.SetActive(true);
                 newBullet4.speed = bulletSpeed;                
                 newBullet4.isShotGun = true;
-                newBullet.transform.Rotate(Random.Range(-10,10), Random.Range(-10,10), 0);
-                newBullet1.transform.Rotate(Random.Range(-10,10), Random.Range(-10,10), 0);
-                newBullet2.transform.Rotate(Random.Range(-10,10), Random.Range(-10,10), 0);
-                newBullet3.transform.Rotate(Random.Range(-10,10), Random.Range(-10,10), 0);
-                newBullet4.transform.Rotate(Random.Range(-10,10), Random.Range(-10,10), 0);
+                newBullet.transform.Rotate(Random.Range(-30,30), Random.Range(-30,30), 0);
+                newBullet1.transform.Rotate(Random.Range(-30,30), Random.Range(-30,30), 0);
+                newBullet2.transform.Rotate(Random.Range(-30,30), Random.Range(-30,30), 0);
+                newBullet3.transform.Rotate(Random.Range(-30,30), Random.Range(-30,30), 0);
+                newBullet4.transform.Rotate(Random.Range(-30,30), Random.Range(-30,30), 0);
             }
             else
             {

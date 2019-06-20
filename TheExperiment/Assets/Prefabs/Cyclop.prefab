@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50e7d4dca5ad5ac488e0293cad6251eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 10
+  _speed: 12
   _rockPrefab: {fileID: 6931618048403037383, guid: 3dff98aef05f7d44b856ce86e32b2030,
     type: 3}
   _rockPos: {fileID: 8792754626598351231}
