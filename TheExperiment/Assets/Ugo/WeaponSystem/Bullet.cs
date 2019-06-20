@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -8,6 +9,8 @@ public class Bullet : MonoBehaviour
     private Vector3 v;
     float destroyTime = 5;
     public bool isShotGun = false;
+    public bool isCannon = false;
+    private int _enemyCount;
 
 
 
@@ -23,12 +26,23 @@ public class Bullet : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
+            _enemyCount++;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (isCannon && other.gameObject.CompareTag("Enemy") && _enemyCount == 4)
+        {
             Destroy(gameObject);
         }
-        
+        else if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }        
     }
 }

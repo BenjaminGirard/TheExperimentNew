@@ -95,6 +95,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  isShotGun: 0
+  isCannon: 1
 --- !u!114 &5044733435772959731
 MonoBehaviour:
   m_ObjectHideFlags: 0
