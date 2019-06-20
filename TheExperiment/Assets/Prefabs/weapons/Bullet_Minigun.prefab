@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isLaunchByPlayer: 1
-  _damage: 50
+  _damage: 35
 --- !u!61 &5143138879744762117
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -37,4 +37,4 @@ MonoBehaviour:
   - equipmentItemAttribute: {fileID: 11400000, guid: ff31e49a58bd0214da32d49f7e3a2891,
       type: 2}
     effectType: 2
-    value: 30
+    value: 100
